@@ -2,10 +2,8 @@
 
 /**
 * set_string - sets the value of a pointer to a char
-* @s: double pointer that will be set to a char
-* @to: pointer thathas the value of the char
-*
-* Return: nothing
+* @s: pointer to pointer we need to set to
+* @to: sstring to set
 */
 void set_string(char **s, char *to)
 {
